@@ -6,7 +6,8 @@ namespace AdminApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Employee system, admin portal");
+            Console.WriteLine("Enter credentials to log in:");
         }
     }
 }

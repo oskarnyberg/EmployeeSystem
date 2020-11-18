@@ -1,0 +1,16 @@
+C:\workspace\sysapp_csharp\assignments\1\EmployeeSystem\AdminApp\bin\Debug\netcoreapp3.1\AdminApp.exe
+C:\workspace\sysapp_csharp\assignments\1\EmployeeSystem\AdminApp\bin\Debug\netcoreapp3.1\AdminApp.deps.json
+C:\workspace\sysapp_csharp\assignments\1\EmployeeSystem\AdminApp\bin\Debug\netcoreapp3.1\AdminApp.runtimeconfig.json
+C:\workspace\sysapp_csharp\assignments\1\EmployeeSystem\AdminApp\bin\Debug\netcoreapp3.1\AdminApp.runtimeconfig.dev.json
+C:\workspace\sysapp_csharp\assignments\1\EmployeeSystem\AdminApp\bin\Debug\netcoreapp3.1\AdminApp.dll
+C:\workspace\sysapp_csharp\assignments\1\EmployeeSystem\AdminApp\bin\Debug\netcoreapp3.1\AdminApp.pdb
+C:\workspace\sysapp_csharp\assignments\1\EmployeeSystem\AdminApp\bin\Debug\netcoreapp3.1\EmployeeLibrary.dll
+C:\workspace\sysapp_csharp\assignments\1\EmployeeSystem\AdminApp\bin\Debug\netcoreapp3.1\EmployeeLibrary.pdb
+C:\workspace\sysapp_csharp\assignments\1\EmployeeSystem\AdminApp\obj\Debug\netcoreapp3.1\AdminApp.csprojAssemblyReference.cache
+C:\workspace\sysapp_csharp\assignments\1\EmployeeSystem\AdminApp\obj\Debug\netcoreapp3.1\AdminApp.AssemblyInfoInputs.cache
+C:\workspace\sysapp_csharp\assignments\1\EmployeeSystem\AdminApp\obj\Debug\netcoreapp3.1\AdminApp.AssemblyInfo.cs
+C:\workspace\sysapp_csharp\assignments\1\EmployeeSystem\AdminApp\obj\Debug\netcoreapp3.1\AdminApp.csproj.CoreCompileInputs.cache
+C:\workspace\sysapp_csharp\assignments\1\EmployeeSystem\AdminApp\obj\Debug\netcoreapp3.1\AdminApp.csproj.CopyComplete
+C:\workspace\sysapp_csharp\assignments\1\EmployeeSystem\AdminApp\obj\Debug\netcoreapp3.1\AdminApp.dll
+C:\workspace\sysapp_csharp\assignments\1\EmployeeSystem\AdminApp\obj\Debug\netcoreapp3.1\AdminApp.pdb
+C:\workspace\sysapp_csharp\assignments\1\EmployeeSystem\AdminApp\obj\Debug\netcoreapp3.1\AdminApp.genruntimeconfig.cache

@@ -1,0 +1,9 @@
+C:\workspace\sysapp_csharp\assignments\1\EmployeeSystem\EmployeeLibrary\bin\Debug\netstandard2.0\EmployeeLibrary.deps.json
+C:\workspace\sysapp_csharp\assignments\1\EmployeeSystem\EmployeeLibrary\bin\Debug\netstandard2.0\EmployeeLibrary.dll
+C:\workspace\sysapp_csharp\assignments\1\EmployeeSystem\EmployeeLibrary\bin\Debug\netstandard2.0\EmployeeLibrary.pdb
+C:\workspace\sysapp_csharp\assignments\1\EmployeeSystem\EmployeeLibrary\obj\Debug\netstandard2.0\EmployeeLibrary.csprojAssemblyReference.cache
+C:\workspace\sysapp_csharp\assignments\1\EmployeeSystem\EmployeeLibrary\obj\Debug\netstandard2.0\EmployeeLibrary.AssemblyInfoInputs.cache
+C:\workspace\sysapp_csharp\assignments\1\EmployeeSystem\EmployeeLibrary\obj\Debug\netstandard2.0\EmployeeLibrary.AssemblyInfo.cs
+C:\workspace\sysapp_csharp\assignments\1\EmployeeSystem\EmployeeLibrary\obj\Debug\netstandard2.0\EmployeeLibrary.csproj.CoreCompileInputs.cache
+C:\workspace\sysapp_csharp\assignments\1\EmployeeSystem\EmployeeLibrary\obj\Debug\netstandard2.0\EmployeeLibrary.dll
+C:\workspace\sysapp_csharp\assignments\1\EmployeeSystem\EmployeeLibrary\obj\Debug\netstandard2.0\EmployeeLibrary.pdb
