@@ -7,7 +7,7 @@ namespace EmployeeLibrary
 {
     public class FileHandler
     {
-        const string path = @"EmployeeLibrary\employees.txt";
+        const string path = @"employees.csv";
         public static void AddUserToFile(Employee employee)
         {
             if (!File.Exists(path))
@@ -28,9 +28,41 @@ namespace EmployeeLibrary
             }
         }
 
-        public void DeleteUserFromFile()
+        public static void DisplayEmployees()
         {
-
+            if (!File.Exists(path))
+            {
+                Console.Clear();
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("No employees, add emplyees first\n");
+                Console.ForegroundColor = ConsoleColor.White;
+            }
+            else
+            {
+                using (StreamReader sr = File.OpenText(path))
+                {
+                    Console.WriteLine("ID - Password - Name - Adress - Admin");
+                    Console.WriteLine("----------------------");
+                    Console.WriteLine("\n" + sr.ReadToEnd());
+                    sr.Close();
+                }
+            }
+        }
+        public static void DeleteUserFromFile(string id)
+        {
+            string[] list = File.ReadAllLines(path);
+            File.WriteAllText(path, string.Empty);
+            using (StreamWriter sw = new StreamWriter(path))
+            {
+                foreach (string s in list)
+                {
+                    if (!s.StartsWith(id))
+                    {
+                        sw.WriteLine(s);
+                    }
+                }
+                sw.Close();
+            }
         }
 
         public void UpdateUserInFile()

@@ -125,7 +125,10 @@ namespace AdminApp
 
         void DeleteEmployee()
         {
-
+            FileHandler.DisplayEmployees();
+            Console.WriteLine("Enter the first numbers in ID ");
+            string id = Console.ReadLine();
+            FileHandler.DeleteUserFromFile(id);
         }
     }
 }
