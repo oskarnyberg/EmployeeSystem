@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EmployeeLibrary;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -112,13 +113,14 @@ namespace AdminApp
                     admin = false;
                 }
             } while (check == false);
-            var employee = new EmployeeLibrary.Employee(employeeID, password, name, adress, admin);
+            var employee = new Employee(employeeID, password, name, adress, admin);
             Console.Clear();
             Console.WriteLine(employee.EmployeeID);
             Console.WriteLine(employee.Password);
             Console.WriteLine(employee.Name);
             Console.WriteLine(employee.Adress);
             Console.WriteLine(employee.Admin);
+            FileHandler.AddUserToFile(employee);
         }
 
         void DeleteEmployee()
