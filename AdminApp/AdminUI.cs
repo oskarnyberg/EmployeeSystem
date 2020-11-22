@@ -6,6 +6,7 @@ namespace AdminApp
 {
     public class AdminUI
     {
+        const string path = @"employees.csv";
         public void StartMenu()
         {
             bool running = true;
@@ -78,7 +79,46 @@ namespace AdminApp
 
         void CreateEmployee()
         {
-
+            Guid employeeID = Guid.NewGuid();
+            Console.Write("New ID is: ");
+            Console.WriteLine(employeeID);
+            Console.WriteLine("Enter password:");
+            string password = Console.ReadLine();
+            Console.WriteLine("Enter full name: ");
+            string name = Console.ReadLine();
+            Console.WriteLine("Enter adress: ");
+            string adress = Console.ReadLine();
+            bool check = false;
+            bool admin;
+            do
+            {
+                Console.WriteLine("Is new user admin? Enter Y for yes, N for no");
+                var option = Console.ReadLine();
+                if (option == "Y")
+                {
+                    admin = true;
+                    check = true;
+                }
+                else if (option == "N")
+                {
+                    admin = false;
+                    check = true;
+                }
+                else
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("Wrong input!!");
+                    Console.ForegroundColor = ConsoleColor.White;
+                    admin = false;
+                }
+            } while (check == false);
+            var employee = new EmployeeLibrary.Employee(employeeID, password, name, adress, admin);
+            Console.Clear();
+            Console.WriteLine(employee.EmployeeID);
+            Console.WriteLine(employee.Password);
+            Console.WriteLine(employee.Name);
+            Console.WriteLine(employee.Adress);
+            Console.WriteLine(employee.Admin);
         }
 
         void DeleteEmployee()
