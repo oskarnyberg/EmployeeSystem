@@ -7,7 +7,7 @@ namespace EmployeeLibrary
 {
     public class FileHandler
     {
-        const string path = @"employees.csv";
+        const string path = @"C:\Temp\employees.csv";
         public static void AddUserToFile(Employee employee)
         {
             if (!File.Exists(path))
@@ -74,6 +74,7 @@ namespace EmployeeLibrary
                 if (s.Contains(id) && s.Contains(pw) && s.Contains("True"))
                 {
                     check = true;
+                    break;
                 }
                 else
                 {
@@ -92,6 +93,7 @@ namespace EmployeeLibrary
                 if (s.Contains(id) && s.Contains(pw))
                 {
                     check = true;
+                    break;
                 }
                 else
                 {
@@ -100,9 +102,32 @@ namespace EmployeeLibrary
             }
             return check;
         }
-        public void UpdateUserInFile()
+        public static void UpdateUserInFile(string id)
         {
-
+            string[] list = File.ReadAllLines(path);
+            File.WriteAllText(path, string.Empty);
+            using (StreamWriter sw = new StreamWriter(path))
+            {
+                foreach (string s in list)
+                {
+                    if (!s.Contains(id))
+                    {
+                        sw.WriteLine(s);
+                    }
+                    else if (s.Contains(id))
+                    {
+                        var splitLines = s.Split(',');
+                        Console.WriteLine("Enter new name:");
+                        splitLines[2] = Console.ReadLine();
+                        Console.WriteLine("Enter new adress");
+                        splitLines[3] = Console.ReadLine();
+                        var updatedLine = string.Join(",", splitLines);
+                        sw.WriteLine(updatedLine);
+                    }
+                }
+                sw.Close();
+            }
+            
         }
     }
 }

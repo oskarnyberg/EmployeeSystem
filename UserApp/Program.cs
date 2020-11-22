@@ -6,7 +6,8 @@ namespace UserApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            UserUI user = new UserUI();
+            user.StartMenu();
         }
     }
 }

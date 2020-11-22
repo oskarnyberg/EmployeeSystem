@@ -1,0 +1,16 @@
+C:\workspace\sysapp_csharp\assignments\1\EmployeeSystem\UserApp\bin\Debug\netcoreapp3.1\UserApp.exe
+C:\workspace\sysapp_csharp\assignments\1\EmployeeSystem\UserApp\bin\Debug\netcoreapp3.1\UserApp.deps.json
+C:\workspace\sysapp_csharp\assignments\1\EmployeeSystem\UserApp\bin\Debug\netcoreapp3.1\UserApp.runtimeconfig.json
+C:\workspace\sysapp_csharp\assignments\1\EmployeeSystem\UserApp\bin\Debug\netcoreapp3.1\UserApp.runtimeconfig.dev.json
+C:\workspace\sysapp_csharp\assignments\1\EmployeeSystem\UserApp\bin\Debug\netcoreapp3.1\UserApp.dll
+C:\workspace\sysapp_csharp\assignments\1\EmployeeSystem\UserApp\bin\Debug\netcoreapp3.1\UserApp.pdb
+C:\workspace\sysapp_csharp\assignments\1\EmployeeSystem\UserApp\bin\Debug\netcoreapp3.1\EmployeeLibrary.dll
+C:\workspace\sysapp_csharp\assignments\1\EmployeeSystem\UserApp\bin\Debug\netcoreapp3.1\EmployeeLibrary.pdb
+C:\workspace\sysapp_csharp\assignments\1\EmployeeSystem\UserApp\obj\Debug\netcoreapp3.1\UserApp.csprojAssemblyReference.cache
+C:\workspace\sysapp_csharp\assignments\1\EmployeeSystem\UserApp\obj\Debug\netcoreapp3.1\UserApp.AssemblyInfoInputs.cache
+C:\workspace\sysapp_csharp\assignments\1\EmployeeSystem\UserApp\obj\Debug\netcoreapp3.1\UserApp.AssemblyInfo.cs
+C:\workspace\sysapp_csharp\assignments\1\EmployeeSystem\UserApp\obj\Debug\netcoreapp3.1\UserApp.csproj.CoreCompileInputs.cache
+C:\workspace\sysapp_csharp\assignments\1\EmployeeSystem\UserApp\obj\Debug\netcoreapp3.1\UserApp.csproj.CopyComplete
+C:\workspace\sysapp_csharp\assignments\1\EmployeeSystem\UserApp\obj\Debug\netcoreapp3.1\UserApp.dll
+C:\workspace\sysapp_csharp\assignments\1\EmployeeSystem\UserApp\obj\Debug\netcoreapp3.1\UserApp.pdb
+C:\workspace\sysapp_csharp\assignments\1\EmployeeSystem\UserApp\obj\Debug\netcoreapp3.1\UserApp.genruntimeconfig.cache
