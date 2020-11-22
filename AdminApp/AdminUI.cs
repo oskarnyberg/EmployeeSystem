@@ -7,7 +7,6 @@ namespace AdminApp
 {
     public class AdminUI
     {
-        const string path = @"employees.csv";
         public void StartMenu()
         {
             bool running = true;
@@ -39,13 +38,27 @@ namespace AdminApp
         void Login()
         {
             Console.WriteLine("Enter valid user credentials to start using.");
-            Console.WriteLine("Enter employee ID: ");
-            Console.ReadLine();
+            Console.WriteLine("Enter first 4 chars in ID: ");
+            string id = Console.ReadLine();
             Console.WriteLine("Enter password: ");
-            Console.ReadLine();
-            MainMenu();
+            string pw = Console.ReadLine();
+            bool verify = FileHandler.VerifyAdmin(id, pw);
+            if(verify == true)
+            {
+                Console.Clear();
+                Console.WriteLine("Successful login");
+                MainMenu();
+            }
+            else
+            {
+                Console.Clear();
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("Wrong id, password, not admin or user don't exist!\n");
+                Console.ForegroundColor = ConsoleColor.White;
+                StartMenu();
+            }
         }
-        void MainMenu()
+        public void MainMenu()
         {
             bool running = true;
             while (running)
@@ -126,7 +139,7 @@ namespace AdminApp
         void DeleteEmployee()
         {
             FileHandler.DisplayEmployees();
-            Console.WriteLine("Enter the first numbers in ID ");
+            Console.WriteLine("Enter the first 4 chars in ID ");
             string id = Console.ReadLine();
             FileHandler.DeleteUserFromFile(id);
         }

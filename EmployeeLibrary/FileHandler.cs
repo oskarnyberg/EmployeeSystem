@@ -56,7 +56,7 @@ namespace EmployeeLibrary
             {
                 foreach (string s in list)
                 {
-                    if (!s.StartsWith(id))
+                    if (!s.Contains(id))
                     {
                         sw.WriteLine(s);
                     }
@@ -65,6 +65,41 @@ namespace EmployeeLibrary
             }
         }
 
+        public static bool VerifyAdmin(string id, string pw)
+        {
+            string[] list = File.ReadAllLines(path);
+            bool check = false;
+            foreach (string s in list)
+            {
+                if (s.Contains(id) && s.Contains(pw) && s.Contains("True"))
+                {
+                    check = true;
+                }
+                else
+                {
+                    check = false;
+                }
+            }
+            return check;
+        }
+
+        public static bool VerifyUser(string id, string pw)
+        {
+            string[] list = File.ReadAllLines(path);
+            bool check = false;
+            foreach (string s in list)
+            {
+                if (s.Contains(id) && s.Contains(pw))
+                {
+                    check = true;
+                }
+                else
+                {
+                    check = false;
+                }
+            }
+            return check;
+        }
         public void UpdateUserInFile()
         {
 
